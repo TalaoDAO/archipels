@@ -1,4 +1,4 @@
-# Installation d'un issuer et verifier pour l'app smartphone Talao wallet
+# issuer et verifier pour l'app smartphone Talao wallet
 
 python3 -m venv venv 
 . venv/bin/activate
@@ -6,6 +6,7 @@ python3 -m venv venv
 pip install redis  
 pip install flask-session  
 pip install didkit==0.2.1 
+pip install web3 # pour registry seulement
 
 python issuer.py  
 ou  
