@@ -11,7 +11,7 @@ from pytezos.crypto.key import Key
 
 
 """
-Pour did:ethr et did:tz(2) utilser ES256K-R pour avoir la suite de signature "EcdsaSecp256k1RecoverySignature2020"
+Pour did:ethr et did:tz(2) utiliser ES256K-R pour avoir la suite de signature "EcdsaSecp256k1RecoverySignature2020"
 pour did:web utiliser ES256K et la suite de signature EcdsaSecp256k1VerificationKey2019 with  "publicKeyJwk" : {}
 """
 
