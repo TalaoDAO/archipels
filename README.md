@@ -1,5 +1,7 @@
 # issuer et verifier pour l'app smartphone Talao wallet
 
+mkdir myproject  
+cd myproject  
 python3 -m venv venv  
 . venv/bin/activate  
 git clone https://github.com/TalaoDAO/archipels.git  
