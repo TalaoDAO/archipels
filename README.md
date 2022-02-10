@@ -13,4 +13,4 @@ python verifier.py
 
 
 
-_init_.py pour laz doc des foonstion didkit  
+Voir test.py pour des exemples de signature et verifications (doc) 
