@@ -7,7 +7,9 @@ pip install redis
 pip install flask-session  
 pip install didkit==0.2.1 
 
-python issuer.py
+python issuer.py  
+ou  
+python verifier.py  
 
 
 
