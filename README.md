@@ -14,3 +14,5 @@ python verifier.py
 
 
 Voir test.py pour des exemples de signature et verifications (doc) 
+
+helpers pour des conversions entre ethereum et tezos cle publique/privée et adresses vs JWK  
