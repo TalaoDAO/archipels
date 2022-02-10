@@ -13,3 +13,4 @@ python verifier.py
 
 
 
+_init_.py pour laz doc des foonstion didkit  
