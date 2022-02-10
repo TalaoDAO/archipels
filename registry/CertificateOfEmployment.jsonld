@@ -1,0 +1,43 @@
+        {       
+            "name" : "https://schema.org/name",
+            "description" : "https://schema.org/description",
+            "CertificateOfEmployment" : {
+                "@id": "https://github.com/TalaoDAO/context/blob/main/README.md#certificateofemployment",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "schema" : "https://schema.org/",
+                    "id": "@id",
+                    "type": "@type",
+                    "familyName" : "schema:familyName",
+                    "givenName" : "schema:givenName",
+                    "startDate" : "schema:startDate",
+                    "jobTitle" : "schema:jobTitle",
+                    "baseSalary" : "schema:baseSalary",
+                    "employmentType" : "schema:employmentType",
+                    "issuedBy": {
+                        "@id": "schema:issuedBy",
+                        "@context": {
+                            "@version": 1.1,
+                            "@protected": true,
+                            "name" :   "schema:name",
+                            "address" : "schema:address",
+                            "logo" : {"@id" : "schema:image", "@type" : "@id"}
+                        }
+                    },
+                    "workFor" : {
+                        "@id": "schema:workFor",
+                        "@context": {
+                            "@version": 1.1,
+                            "@protected": true,
+                            "name" :  "schema:name",
+                            "address" : "schema:address",
+                            "logo" : {
+                                "@id" : "schema:image",
+                                "@type" : "@id"
+                            }
+                        }
+                    }
+                }
+            }
+        
