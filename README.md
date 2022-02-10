@@ -7,7 +7,7 @@ pip install redis
 pip install flask-session  
 pip install didkit==0.2.1 
 pip install web3 # pour registry seulement   
-pip install pytezos # pour helpers seulement
+pip install pytezos eth-keys eth-utils # pour helpers seulement
 
 Run 
 
