@@ -1,3 +1,7 @@
+"""
+interface des fonctions didkit en v 0.2.1
+"""
+
 from ctypes import *
 from sys import platform
 import os.path
