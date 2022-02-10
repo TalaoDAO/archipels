@@ -1,6 +1,6 @@
 # issuer et verifier pour l'app smartphone Talao wallet
 
-python3 -m venv venv 
+python3 -m venv venv  
 . venv/bin/activate
 
 pip install redis  
